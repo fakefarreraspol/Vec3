@@ -8,13 +8,16 @@ template<class TYPE>
 class Vec3
 {
 protected:
-	TYPE x, y, z;
-public: 
 	
+public: 
+	TYPE x, y, z;
 
-	Vec3(){}
+	Vec3()
+	{
+		x = y = z = 0;
+	}
 
-	Vec3(TYPE& x, TYPE& y, TYPE& z)
+	Vec3(TYPE x, TYPE y, TYPE z)
 	{
 		this->x = x;
 		this->y = y;
@@ -26,12 +29,12 @@ public:
 		this->x = vec.x;
 		this->y = vec.y;
 		this->z = vec.z;
-		return *this;
+		
 	}
 	//operator
 	Vec3 operator +(const Vec3& vec) const
 	{
-		result r;
+		Vec3 r;
 
 		r.x = x + vec.x;
 		r.y = y + vec.y;
@@ -41,7 +44,7 @@ public:
 	}
 	Vec3 operator -(const Vec3& vec) const
 	{
-		result r;
+		Vec3 r;
 
 		r.x = x - vec.x;
 		r.y = y - vec.y;
@@ -69,9 +72,12 @@ public:
 		return(*this);
 
 	}
-	bool operator ==(const Vec3& vec) const
+	Vec3& operator ==(const Vec3& vec) 
 	{
-		return (x == vec.x && y == vec.y && z==vec.z);
+		this->x == vec.x;
+		this->y == vec.y;
+		this->z == vec.z;
+		return (*this);
 	}
 	bool IsZero() const
 	{

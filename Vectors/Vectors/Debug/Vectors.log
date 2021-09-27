@@ -1,2 +1,28 @@
 ﻿  Vectors.cpp
-  Vectors.vcxproj -> C:\Users\farre\source\repos\Vectors\Debug\Vectors.exe
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(104,38): warning C4244: 'argument': conversion from 'TYPE' to 'float', possible loss of data
+          with
+          [
+              TYPE=int
+          ]
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(100): message : while compiling class template member function 'TYPE Vec3<TYPE>::DistanceTo(const Vec3<TYPE> &) const'
+          with
+          [
+              TYPE=int
+          ]
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\Vectors.cpp(50): message : see reference to function template instantiation 'TYPE Vec3<TYPE>::DistanceTo(const Vec3<TYPE> &) const' being compiled
+          with
+          [
+              TYPE=int
+          ]
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\Vectors.cpp(9): message : see reference to class template instantiation 'Vec3<int>' being compiled
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(104,15): warning C4244: 'return': conversion from 'float' to 'TYPE', possible loss of data
+          with
+          [
+              TYPE=int
+          ]
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(77,11): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(76): message : while compiling class template member function 'Vec3<int> &Vec3<int>::operator ==(const Vec3<int> &)'
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\Vectors.cpp(31): message : see reference to function template instantiation 'Vec3<int> &Vec3<int>::operator ==(const Vec3<int> &)' being compiled
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(78,11): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(79,11): warning C4553: '==': result of expression not used; did you intend '='?
+  Vectors.vcxproj -> C:\Users\farre\Documents\GitHub\Vec3\Vectors\Debug\Vectors.exe
