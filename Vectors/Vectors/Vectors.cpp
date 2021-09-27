@@ -47,6 +47,6 @@ int main()
 	vector05.Normalize();
 	cout << "\nVector05 Normalized: " << vector05.x << " " << vector05.y << " " << vector05.z;
 	cout << "\nDistanceTo ";
-	cout << "\nDistance between vector01 and vector02: " << vector01.DistanceTo(vector02);;
+	cout << "\nDistance between vector03 and vector04: " << vector03.DistanceTo(vector04);;
 }
 
