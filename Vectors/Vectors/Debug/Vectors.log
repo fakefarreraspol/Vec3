@@ -1,10 +1,10 @@
 ﻿  Vectors.cpp
-C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(104,38): warning C4244: 'argument': conversion from 'TYPE' to 'float', possible loss of data
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(108,38): warning C4244: 'argument': conversion from 'TYPE' to 'float', possible loss of data
           with
           [
               TYPE=int
           ]
-C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(100): message : while compiling class template member function 'TYPE Vec3<TYPE>::DistanceTo(const Vec3<TYPE> &) const'
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(104): message : while compiling class template member function 'TYPE Vec3<TYPE>::DistanceTo(const Vec3<TYPE> &) const'
           with
           [
               TYPE=int
@@ -15,7 +15,7 @@ C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\Vectors.cpp(50): message : 
               TYPE=int
           ]
 C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\Vectors.cpp(9): message : see reference to class template instantiation 'Vec3<int>' being compiled
-C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(104,15): warning C4244: 'return': conversion from 'float' to 'TYPE', possible loss of data
+C:\Users\farre\Documents\GitHub\Vec3\Vectors\Vectors\vector3.h(108,15): warning C4244: 'return': conversion from 'float' to 'TYPE', possible loss of data
           with
           [
               TYPE=int

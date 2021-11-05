@@ -72,12 +72,16 @@ public:
 		return(*this);
 
 	}
-	Vec3& operator ==(const Vec3& vec) 
+	Vec3& operator =(const Vec3& vec) 
 	{
 		this->x = vec.x;
 		this->y = vec.y;
 		this->z = vec.z;
 		return (*this);
+	}
+	bool operator ==(const Vec3& vec) const
+	{
+		return(x == vec.x && y == vec.y && z == vec.z);
 	}
 	bool IsZero() const
 	{

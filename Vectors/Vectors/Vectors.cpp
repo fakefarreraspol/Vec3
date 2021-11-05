@@ -28,7 +28,7 @@ int main()
 	cout << "\nVector05=vector05.operator-(vector04) values " << vector05.x << " " << vector05.y << " " << vector05.z;
 	cout << "\n\n\nEqual "; //Does not work
 	
-	vector01 = vector01.operator==(vector02);
+	vector01 = vector01.operator=(vector02);
 	cout << "\nVector01==Vector02 values " << vector01.x << " " << vector01.y << " " << vector01.z;
 
 	cout << "\n\n\nFunctions\n ";
